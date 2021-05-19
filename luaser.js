@@ -222,7 +222,7 @@ async function starts() {
 					ownerG: '*sᴏʀʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴏᴡɴᴇʀ ɢʀᴏᴜᴩ!*',
 					ownerB: '*sᴏʀʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴏᴡɴᴇʀ ʙᴏᴛ!* ',
 					premium: '*sᴏʀʀʏ ᴛʜɪs ᴜsᴇʀ sᴘᴇᴄɪғɪᴄ ғᴇᴀᴛᴜʀᴇ ᴩʀᴇᴍɪᴜᴍ!*',
-					userB: `ʜᴇʏ ʙʀᴏ *${pushname2}*, ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ᴘʟᴇᴀsᴇ ᴛʏᴘᴇ \n*${prefix}verify*`,
+					userB: `ᴏʏᴇ ${ᴘᴜꜱʜɴᴀᴍᴇ2}* ᴘᴇʀʀᴏ/ᴀ , ɴᴏ ᴇꜱᴛᴀꜱ ʀᴇɢɪꜱᴛʀᴀᴅᴏ/ᴀ ᴇɴ ᴍɪ ʙᴀꜱᴇ ᴅᴇ ᴅᴀᴛᴏꜱ ᴏ ᴛᴇ ʟᴀᴍᴇꜱ ʟᴏꜱ ɢᴜᴇʙᴏꜱ ᴏ ᴜᴛɪʟɪᴢᴀꜱ *${ᴘʀᴇꜰɪx}*ᴠᴇʀɪꜰʏ ᴏ .ʀᴇɢɪꜱᴛʀᴏ`,
 					admin: '*sᴏʀʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀᴅᴍɪɴ ɢʀᴏᴜᴩ!*',
 					Badmin: '*sᴏʀʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ᴡʜᴇɴ ʙᴏᴛ ʙᴇᴄᴏᴍᴇs ᴀᴅᴍɪɴ!*',
 					publikG: `sᴏʀʀʏ ᴛʜᴇ ʙᴏᴛ ɪs ɴᴏᴡ ᴘʀɪᴠᴀᴛᴇ ʙʏ ᴏᴡɴᴇʀ\nғᴏʀ ᴍᴏʀᴇ ᴄʟᴇᴀʀʟʏ ᴛʏᴘᴇ \n*${prefix}infobot*`
@@ -2196,7 +2196,7 @@ case 'covid':
 					} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 					}
-					captionnya = `╭─「 *ᴇꜱᴛᴀꜱ ʀᴇɢɪꜱᴛʀᴀᴅᴏ* 」│\n│\`\`\` ${date} ${time}\`\`\`\n│\`\`\`「ɴᴏᴍʙʀᴇ」: ${pushname2}\`\`\`\n│\`\`\`「 ɴᴜᴍᴇʀᴏ 」: wa.me/${sender.split("@")[0]}\`\`\`\n│\`\`\`ᴘᴀʀᴀ ᴜꜱᴀʀ ᴀ ʙᴇɴᴅᴇʀ\`\`\`\n│\`\`\`ᴘᴏʀꜰᴀᴠᴏʀ\`\`\`\n│\`\`\`ᴇɴᴠɪᴀʀ${prefix}menu\`\`\`\n│\`\`\`\n│ᴛᴏᴛᴀʟ ᴜsᴇʀ: ${user.length} ᴘᴇʀsᴏɴ\`\`\`\n╰────────────────`
+					captionnya = `╭─「 *ᴇꜱᴛᴀꜱ ʀᴇɢɪꜱᴛʀᴀᴅᴏ* 」│\n│\`\`\` ${date} ${time}\`\`\`\n│\`\`\`「 ɴᴏᴍʙʀᴇ 」: ${pushname2}\`\`\`\n│\`\`\`「 ɴᴜᴍᴇʀᴏ 」: wa.me/${sender.split("@")[0]}\`\`\`\n│\`\`\`ᴘᴀʀᴀ ᴜꜱᴀʀ ᴀ ʙᴇɴᴅᴇʀ\`\`\`\n│\`\`\`ᴘᴏʀꜰᴀᴠᴏʀ\`\`\`\n│\`\`\`ᴇɴᴠɪᴀʀ${prefix}menu\`\`\`\n│\`\`\`\n│ᴛᴏᴛᴀʟ ᴜsᴇʀ: ${user.length} ᴘᴇʀsᴏɴ\`\`\`\n╰────────────────`
 					brando = await getBuffer(`https://pencarikode.xyz/api/cita-cita?apikey=pais`, {method: 'get'})                
                     daftarimg = await getBuffer(ppimg)
 					denz.sendMessage(from, daftarimg, image, {quoted: mek, caption: captionnya})
