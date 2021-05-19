@@ -2187,7 +2187,7 @@ case 'covid':
 				case 'registro':
 				case 'verify':
 					denz.updatePresence(from, Presence.composing)
-					if (isUser) return reply('*ʏᴏᴜ ᴀʀᴇ ʀᴇɢɪsᴛᴇʀᴇᴅ!*')
+					if (isUser) return reply('*ᴇꜱᴛᴀꜱ ʀᴇɢɪꜱᴛʀᴀᴅᴏ!*')
 					if (isBanned) return reply(mess.only.benned)
 					user.push(sender)
 					fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
@@ -2196,7 +2196,7 @@ case 'covid':
 					} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 					}
-					captionnya = `╭─「 *_ʀᴇɢɪsᴛʀᴀᴛɪᴏɴ_* 」\`\`\`\n│ sᴜᴄᴄᴇssғᴜʟ ʀᴇɢɪsᴛʀᴀᴛɪᴏɴ ꜱɴ: \n│TM08GK8PPHBSJDH10J\`\`\`\n│\n│\`\`\`ᴏɴ ${date} ${time}\`\`\`\n│\`\`\`「 ɴᴀᴍᴇ 」: ${pushname2}\`\`\`\n│\`\`\`「 ɴᴜᴍʙᴇʀ 」: wa.me/${sender.split("@")[0]}\`\`\`\n│\`\`\`ᴛᴏ ᴜsᴇ ᴛʜᴇ ʙᴏᴛ\`\`\`\n│\`\`\`ᴘʟᴇᴀsᴇ\`\`\`\n│\`\`\`sᴇɴᴅ ${prefix}menu\`\`\`\n│\`\`\`\n│ᴛᴏᴛᴀʟ ᴜsᴇʀ: ${user.length} ᴘᴇʀsᴏɴ\`\`\`\n╰────────────────`
+					captionnya = `╭─「 *ᴇꜱᴛᴀꜱ ʀᴇɢɪꜱᴛʀᴀᴅᴏ* 」\`\`\`\n\`\`\`\n│\n│\`\`\` ${date} ${time}\`\`\`\n│\`\`\`「ɴᴏᴍʙʀᴇ」: ${pushname2}\`\`\`\n│\`\`\`「 ɴᴜᴍᴇʀᴏ 」: wa.me/${sender.split("@")[0]}\`\`\`\n│\`\`\`ᴘᴀʀᴀ ᴜꜱᴀʀ ᴀ ʙᴇɴᴅᴇʀ\`\`\`\n│\`\`\`ᴘᴏʀꜰᴀᴠᴏʀ\`\`\`\n│\`\`\`ᴇɴᴠɪᴀʀ${prefix}menu\`\`\`\n│\`\`\`\n│ᴛᴏᴛᴀʟ ᴜsᴇʀ: ${user.length} ᴘᴇʀsᴏɴ\`\`\`\n╰────────────────`
 					brando = await getBuffer(`https://pencarikode.xyz/api/cita-cita?apikey=pais`, {method: 'get'})                
                     daftarimg = await getBuffer(ppimg)
 					denz.sendMessage(from, daftarimg, image, {quoted: mek, caption: captionnya})
