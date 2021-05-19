@@ -2181,7 +2181,10 @@ case 'covid':
                     })
                 await limitAdd(sender)
 				break 
-				case 'daftar':
+				case 'register':
+				
+				case 'register':
+				case 'registro':
 				case 'verify':
 					denz.updatePresence(from, Presence.composing)
 					if (isUser) return reply('*ʏᴏᴜ ᴀʀᴇ ʀᴇɢɪsᴛᴇʀᴇᴅ!*')
