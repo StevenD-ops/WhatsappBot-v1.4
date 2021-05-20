@@ -63,7 +63,7 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:LUA SER OFC\n'
+            + 'FN:steve\n'
             + 'ORG:Owner LUA;\n'
             + 'TEL;type=CELL;type=VOICE;waid=18099152058:+18099152058\n'
             + 'END:VCARD'
