@@ -280,7 +280,7 @@ async function starts() {
 			const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
 			const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
 			
-			/*const checkLimit = (sender) => {
+			const checkLimit = (sender) => {
                 let found = false
                     for (let lmt of _limit) {
                         if (lmt.id === sender) {
@@ -302,7 +302,7 @@ async function starts() {
 					    denz.sendMessage(from, `ᴍᴀᴀғ 𝙇𝙐𝘼 𝙎𝙀𝙍 ᴛɪᴅᴀᴋ ʙɪꜱᴀ ᴍᴀꜱᴜᴋ ɢʀᴏᴜᴘ ᴋᴀʀɴᴀ ᴍᴇᴍʙᴇʀ ɢʀᴏᴜᴘ *${groupMetadata.subject}* ᴛɪᴅᴀᴋ ᴍᴇᴍᴇɴᴜʜɪ ʟɪᴍɪᴛ ᴍᴇᴍʙᴇʀ\n\nᴍɪɴɪᴍᴀʟ ᴍᴇᴍʙᴇʀ *${memberLimit}*`, text)
 					setTimeout( () => {
                             denz.groupLeave(from)
-                            }, 100)*/
+                            }, 100)
 		setTimeout( () => {
 		denz.updatePresence(from, Presence.composing)
 					}, 10)
