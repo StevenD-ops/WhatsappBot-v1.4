@@ -75,12 +75,12 @@ const vcard1 = 'BEGIN:VCARD\n'
             + 'TEL;type=CELL;type=VOICE;waid=919895823783:+919895823783\n'
             + 'END:VCARD'
 
-prefix = "!"
-name = "LUA SER"
-rdaftar = "𝙇𝙐𝘼 𝙎𝙀𝙍"
-rmenu = "𝙇𝙐𝘼 𝙎𝙀𝙍"
-botinfo = "𝙇𝙐𝘼 𝙎𝙀𝙍"
-limitt = 999999999
+prefix = "."
+name = "d"
+rdaftar = "d"
+rmenu = "d"
+botinfo = "𝙇"
+limitt = 100
 memberLimit = 1
 ban = []
 premium = ["919048417849@s.whatsapp.net","919895823783@s.whatsapp.net"]
@@ -388,34 +388,17 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 				case 'menu':
 			if (isBanned) return reply(mess.only.benned)
 			if (!isUser) return reply(mess.only.userB)
-			dmenu = `╓───「 *_𝐋𝐔𝐀 𝐁𝐎𝐓 𝐔𝐘𝐈𝐑_* 」
-║𝐻𝐴𝐼 𝐼'𝑀 𝐵𝑂𝑇  🕊️
-╙───々
+			dmenu = `
 ╓───「 *_ʙᴏᴛ ɪɴғᴏ_* 」
-║🧧 ᴄʀᴇᴀᴛᴏʀ: 𝟒 𝟒 𝟒
-║🧾 ʀᴇᴄᴏᴅᴇ ʙʏ: ʟᴜᴀ ᴛᴇᴀᴍ
-║🕯️ ᴘʀᴇғɪx: ${prefix}
-║🎀 ᴜꜱᴇʀ ʀᴇɢɪsᴛᴇʀᴇᴅ: ${user.length}
+║ ᴘʀᴇғɪx: ${prefix}
+║ ᴜꜱᴇʀ ʀᴇɢɪsᴛᴇʀᴇᴅ: ${user.length}
 ╙───々
-╓───「 *_ᴜꜱᴇʀ ɪɴғᴏ_* 」
+╓───「 *_YHLQMDLG_* 」
 ║👁️‍🗨️ ɴᴀᴍᴇ: ${pushname2}
 ║👁️‍🗨️ ʟɪᴍɪᴛ: ${limitt}
 ║👁️‍🗨️ ʀᴇɢɪꜱᴛᴇʀᴇᴅ: √
 ╙───々
-╓───「 *_ᴀʙᴏᴜᴛ ʟᴜᴀ ʙᴏᴛ_* 」
-║⚡ ${prefix}ʀᴇᴘᴏʀᴛ
-║⚡ ${prefix}ɪɴғᴏ
-║⚡ ${prefix}ᴅᴏɴᴀꜱɪ
-║⚡ ${prefix}ᴏᴡɴᴇʀ
-║⚡ ${prefix}ᴄᴏᴏᴡɴᴇʀ
-║⚡ ${prefix}ꜱᴘᴇᴇᴅ
-║⚡${prefix}ᴅᴀғᴛᴀʀ
-║⚡ ${prefix}ʟɪᴍɪᴛ
-║⚡ ${prefix}ᴛᴏᴛᴀʟᴜꜱᴇʀ
-║⚡ ${prefix}ʙʟᴏᴄᴋʟɪꜱᴛ
-║⚡ ${prefix}ʙᴀɴʟɪꜱᴛ
-║⚡ ${prefix}ʙᴀʜᴀꜱᴀ
-╙───々
+
 ͏͏͏͏͏͏͏͏͏͏͏͏͏͏╓───「 *_ɴᴇᴡ ᴍᴇɴᴜ🀄_* 」
 ║🀄 ${prefix}ᴍᴇɴᴜ2
 ║🀄 ${prefix}ᴀᴜᴅɪᴏᴍᴇɴᴜ
@@ -577,6 +560,81 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 ║❏ ${prefix}ɴꜱғᴡ
 ║❏ ${prefix}ꜱɪᴍɪʜ
 ╙───々
+╓───「 *_ғᴜɴ ᴍᴇɴᴜ_* 」
+║❏ ${prefix}ᴍᴇᴍᴇɪɴᴅᴏ
+╙───々
+
+╓───「 *_ᴏᴡɴᴇʀ ᴍᴇɴᴜ_* 」
+║♦️ ${prefix}ᴀᴅᴅᴘʀᴇᴍ
+║♦️ ${prefix}ʀᴇᴍᴏᴠᴇᴘʀᴇᴍ
+║♦️ ${prefix}ᴀᴅᴅʙᴀᴅᴡᴏʀᴅ
+║♦️ ${prefix}ᴅᴇʟʙᴀᴅᴡᴏʀᴅ
+║♦️ ${prefix}ᴀᴅᴅʙᴜᴄɪɴ
+║♦️ ${prefix}ᴀᴅᴅᴀᴜᴅɪᴏ
+║♦️ ${prefix}ᴀᴅᴅꜱᴛɪᴄᴋᴇʀ
+║♦️ ${prefix}ꜱᴇᴛᴍᴇᴍʟɪᴍɪᴛ
+║♦️ ${prefix}ʀᴇꜱᴇᴛʟɪᴍɪᴛ
+║♦️ ${prefix}ꜱᴇᴛʟɪᴍɪᴛ
+║♦️ ${prefix}ꜱᴇᴛʀᴇᴘʟʏ
+║♦️ ${prefix}ꜱᴇᴛᴘʀᴇғɪx
+║♦️ ${prefix}ꜱᴇᴛɴᴀᴍᴇʙᴏᴛ
+║♦️ ${prefix}ꜱᴇᴛᴘᴘʙᴏᴛ
+║♦️ ${prefix}ʙᴄ
+║♦️ ${prefix}ʙᴄɢᴄ
+║♦️ ${prefix}ʙᴀɴ
+║♦️ ${prefix}ᴜɴʙᴀɴ
+║♦️ ${prefix}ʙʟᴏᴄᴋ
+║♦️ ${prefix}ᴜɴʙʟᴏᴄᴋ
+║♦️ ${prefix}ᴄʟᴇᴀʀᴀʟʟ
+║♦️ ${prefix}ᴅᴇʟᴇᴛᴇ
+║♦️ ${prefix}ᴄʟᴏɴᴇ
+║♦️ ${prefix}ʟᴇᴀᴠᴇ
+╙───々`
+const loli = fs.readFileSync('./mp3/endiii.mp3')                
+denz.sendMessage(from, dmenu, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "mwonu   𝙇𝙐𝘼 𝙎𝙀𝙍❤️", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('dnsnew.jpg')}}}})
+denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 	    
+            break
+            case 'menu2':
+			if (isBanned) return reply(mess.only.benned)
+			if (!isUser) return reply(mess.only.userB)
+dmenu = `╓───「 *_ᴘʀɪᴠᴀᴛᴇ ᴍᴇɴᴜ_* 」
+║⛄ ${prefix}ɪɢsᴛᴏʀʏ ᴜsᴇʀɴᴀᴍᴇ
+║⛄ ${prefix}ɪɢsᴛᴀʟᴋ ᴜsᴇʀɴᴀᴍᴇ
+║⛄ ${prefix}ᴘʟᴀʏsᴛᴏʀᴇ ᴀᴘᴘ ɴᴀᴍᴇ
+║⛄ ${prefix}ʏᴛsᴇᴀʀᴄʜ ʏᴛ sᴇᴀʀᴄʜ
+║⛄ ${prefix}ᴡɪᴋɪ
+║
+║ *wa.me/18099152058*
+╙───々`
+const sir1 = fs.readFileSync('./mp3/sad.mp3')
+const ombi = fs.readFileSync('dnsnew.jpg')
+denz.sendMessage(from, ombi, image, {quoted: mek, caption: dmenu})
+denz.sendMessage(from, sir1, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 	    
+            break
+case 'audiomenu':
+			if (isBanned) return reply(mess.only.benned)
+			if (!isUser) return reply(mess.only.userB)
+dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
+║🎶  ${prefix}Callate
+║
+║───「 *_ᴀᴜᴅɪᴏ ᴍᴇɴᴜ_* 」
+║🎤 ${prefix}ᴛᴛꜱ
+╙───々`
+	/*╓───「 *_Informacionᴛ_* 」
+║⚡ ${prefix}ʀᴇᴘᴏʀᴛ
+║⚡ ${prefix}ɪɴғᴏ
+║⚡ ${prefix}ᴅᴏɴᴀꜱɪ
+║⚡ ${prefix}ᴏᴡɴᴇʀ
+║⚡ ${prefix}ᴄᴏᴏᴡɴᴇʀ
+║⚡ ${prefix}ꜱᴘᴇᴇᴅ
+║⚡${prefix}ᴅᴀғᴛᴀʀ
+║⚡ ${prefix}ʟɪᴍɪᴛ
+║⚡ ${prefix}ᴛᴏᴛᴀʟᴜꜱᴇʀ
+║⚡ ${prefix}ʙʟᴏᴄᴋʟɪꜱᴛ
+║⚡ ${prefix}ʙᴀɴʟɪꜱᴛ
+║⚡ ${prefix}ʙᴀʜᴀꜱᴀ
+╙───々
+
 ╓──「 *_ᴍᴀᴋᴇʀ ᴍᴇɴᴜ_* 」ʜᴅ
 ║✨ ${prefix}ᴀᴛᴛᴘ
 ║✨ ${prefix}sɪʟᴠᴇʀʏᴛ >ʟᴜᴀ
@@ -606,8 +664,18 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 ║✨ ${prefix}ᴘᴜᴘʏᴄᴜᴛᴇ
 ║✨ ${prefix}ʜᴏʟᴏɢʀᴀᴍ
 ║✨ ${prefix}ᴍᴇᴛᴀʟʟᴏɢᴏ
+╓───「 *_ꜱᴀɴɢᴇ ᴍᴇɴᴜ_* 」
+║❏ ${prefix}ᴄᴇʀꜱᴇx
+║❏ ${prefix}ʀᴀɴᴅᴏᴍʙᴏᴋᴇᴘ
+║❏ ${prefix}ᴘᴏʀɴʜᴜʙ
+║❏ ${prefix}xᴠɪᴅᴇᴏꜱ
+║❏ ${prefix}ɴꜱғᴡʟᴏʟɪ
+║❏ ${prefix}ɴꜱғᴡʙʟᴏᴡᴊᴏʙ
+║❏ ${prefix}ɴꜱғᴡɴᴇᴋᴏ
+║❏ ${prefix}ɴꜱғᴡᴛʀᴀᴘ
+║❏ ${prefix}ʜᴇɴᴛᴀɪ
+║❏ ${prefix}ɴᴇᴋᴏᴘᴏɪ
 ╙───々
-╓───「 *_ғᴜɴ ᴍᴇɴᴜ_* 」
 ║❏ ${prefix}ɴᴜʟɪꜱ
 ║❏ ${prefix}ɴᴜʟɪꜱ2
 ║❏ ${prefix}ꜱʟɪᴅᴇ
@@ -644,20 +712,6 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 ║❏ ${prefix}ᴛᴇʙᴀᴋɢᴀᴍʙᴀʀ
 ║❏ ${prefix}ᴄᴀᴋʟᴏɴᴛᴏɴɢ
 ║❏ ${prefix}ғᴀᴍɪʟʏ100
-║❏ ${prefix}ᴍᴇᴍᴇɪɴᴅᴏ
-╙───々
-╓───「 *_ꜱᴀɴɢᴇ ᴍᴇɴᴜ_* 」
-║❏ ${prefix}ᴄᴇʀꜱᴇx
-║❏ ${prefix}ʀᴀɴᴅᴏᴍʙᴏᴋᴇᴘ
-║❏ ${prefix}ᴘᴏʀɴʜᴜʙ
-║❏ ${prefix}xᴠɪᴅᴇᴏꜱ
-║❏ ${prefix}ɴꜱғᴡʟᴏʟɪ
-║❏ ${prefix}ɴꜱғᴡʙʟᴏᴡᴊᴏʙ
-║❏ ${prefix}ɴꜱғᴡɴᴇᴋᴏ
-║❏ ${prefix}ɴꜱғᴡᴛʀᴀᴘ
-║❏ ${prefix}ʜᴇɴᴛᴀɪ
-║❏ ${prefix}ɴᴇᴋᴏᴘᴏɪ
-╙───々
 ╓───「 *_ɪꜱʟᴀᴍ ᴍᴇɴᴜ_* 」
 ║❏ ${prefix}ᴊᴀᴅᴡᴀʟꜱʜᴏʟᴀᴛ
 ║❏ ${prefix}ϙᴜʀᴀɴᴀᴜᴅɪᴏ
@@ -684,80 +738,7 @@ denz.sendMessage(from, hasil, text, {quoted: { key: { fromMe: false, participant
 ╓───「 *_ꜱᴘᴀᴍ ᴍᴇɴᴜ_* 」
 ║❏ ${prefix}ꜱᴘᴀᴍᴄᴀʟʟ 
 ║❏ ${prefix}ꜱᴘᴀᴍɢᴍᴀɪʟ 
-╙───々
-╓───「 *_ᴏᴡɴᴇʀ ᴍᴇɴᴜ_* 」
-║♦️ ${prefix}ᴀᴅᴅᴘʀᴇᴍ
-║♦️ ${prefix}ʀᴇᴍᴏᴠᴇᴘʀᴇᴍ
-║♦️ ${prefix}ᴀᴅᴅʙᴀᴅᴡᴏʀᴅ
-║♦️ ${prefix}ᴅᴇʟʙᴀᴅᴡᴏʀᴅ
-║♦️ ${prefix}ᴀᴅᴅʙᴜᴄɪɴ
-║♦️ ${prefix}ᴀᴅᴅᴀᴜᴅɪᴏ
-║♦️ ${prefix}ᴀᴅᴅꜱᴛɪᴄᴋᴇʀ
-║♦️ ${prefix}ꜱᴇᴛᴍᴇᴍʟɪᴍɪᴛ
-║♦️ ${prefix}ʀᴇꜱᴇᴛʟɪᴍɪᴛ
-║♦️ ${prefix}ꜱᴇᴛʟɪᴍɪᴛ
-║♦️ ${prefix}ꜱᴇᴛʀᴇᴘʟʏ
-║♦️ ${prefix}ꜱᴇᴛᴘʀᴇғɪx
-║♦️ ${prefix}ꜱᴇᴛɴᴀᴍᴇʙᴏᴛ
-║♦️ ${prefix}ꜱᴇᴛᴘᴘʙᴏᴛ
-║♦️ ${prefix}ʙᴄ
-║♦️ ${prefix}ʙᴄɢᴄ
-║♦️ ${prefix}ʙᴀɴ
-║♦️ ${prefix}ᴜɴʙᴀɴ
-║♦️ ${prefix}ʙʟᴏᴄᴋ
-║♦️ ${prefix}ᴜɴʙʟᴏᴄᴋ
-║♦️ ${prefix}ᴄʟᴇᴀʀᴀʟʟ
-║♦️ ${prefix}ᴅᴇʟᴇᴛᴇ
-║♦️ ${prefix}ᴄʟᴏɴᴇ
-║♦️ ${prefix}ʟᴇᴀᴠᴇ
-╙───々
-╓───「 _𝐋𝐔𝐀 𝐁𝐎𝐓 𝐔𝐘𝐈𝐑_ 」
-║🙂 NANBAN UYIR 🕊️
-╙───々`
-const loli = fs.readFileSync('./mp3/endiii.mp3')                
-denz.sendMessage(from, dmenu, text, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": "mwonu   𝙇𝙐𝘼 𝙎𝙀𝙍❤️", "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('dnsnew.jpg')}}}})
-denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 	    
-            break
-            case 'menu2':
-			if (isBanned) return reply(mess.only.benned)
-			if (!isUser) return reply(mess.only.userB)
-dmenu = `╓───「 *_ᴘʀɪᴠᴀᴛᴇ ᴍᴇɴᴜ_* 」
-║⛄ ${prefix}ɪɢsᴛᴏʀʏ ᴜsᴇʀɴᴀᴍᴇ
-║⛄ ${prefix}ɪɢsᴛᴀʟᴋ ᴜsᴇʀɴᴀᴍᴇ
-║⛄ ${prefix}ᴘʟᴀʏsᴛᴏʀᴇ ᴀᴘᴘ ɴᴀᴍᴇ
-║⛄ ${prefix}ʏᴛsᴇᴀʀᴄʜ ʏᴛ sᴇᴀʀᴄʜ
-║⛄ ${prefix}ᴡɪᴋɪ
-║
-║ *wa.me/919048417849*
-╙───々`
-const sir1 = fs.readFileSync('./mp3/sad.mp3')
-const ombi = fs.readFileSync('dnsnew.jpg')
-denz.sendMessage(from, ombi, image, {quoted: mek, caption: dmenu})
-denz.sendMessage(from, sir1, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 	    
-            break
-case 'audiomenu':
-			if (isBanned) return reply(mess.only.benned)
-			if (!isUser) return reply(mess.only.userB)
-dmenu = `╓───「 *_sᴏɴɢ ᴍᴇɴᴜ_* 」
-║🎶  ${prefix}ɪʀɪ
-║🎶  ${prefix} ᴛᴀᴘɪ
-║🎶  ${prefix}ʏᴏᴜʀ
-║🎶  ${prefix}ᴀᴡᴀʏ
-║🎶  ${prefix}ʙᴏᴍᴀ
-║🎶  ${prefix}ɴᴜᴍᴀ
-║🎶  ${prefix}ʀᴜʟᴇs
-║🎶  ${prefix}ɢᴀʀᴏx
-║🎶  ${prefix}ᴍᴀɢɪᴄ
-║🎶  ${prefix}ᴍᴇɴʏᴜᴋᴀɪᴋᴜ
-║
-║───「 *_ᴀᴜᴅɪᴏ ᴍᴇɴᴜ_* 」
-║🎤 ${prefix}ɢᴇᴍᴜᴋ
-║🎤 ${prefix}ᴛᴜᴘᴀɪ
-║🎤 ${prefix}ʙᴀꜱꜱ
-║🎤 ${prefix}ꜱʟᴏᴡ
-║🎤 ${prefix}ғᴀꜱᴛ
-║🎤 ${prefix}ᴛᴛꜱ ᴇɴ ʜᴇʟʟᴏ
-╙───々`
+╙───々*/
 const sir2 = fs.readFileSync('./mp3/dhrtt.m4a')
 const myr = fs.readFileSync('musin.jpg')
 denz.sendMessage(from, myr, image, {quoted: mek, caption: dmenu})
@@ -2181,7 +2162,7 @@ case 'covid':
                     })
                 await limitAdd(sender)
 				break 
-				case 'daftar':
+				case '.register':
 				case 'verify':
 					denz.updatePresence(from, Presence.composing)
 					if (isUser) return reply('*ʏᴏᴜ ᴀʀᴇ ʀᴇɢɪsᴛᴇʀᴇᴅ!*')
@@ -5523,12 +5504,10 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/jget.webp');
         denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙇𝙐𝘼 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("Achuzz")){
+        if (budy.includes("puto")){
 		denz.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/Achuzz.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-        const d = fs.readFileSync('./sticker/Achuzz.webp');
-        denz.sendMessage(from, d, sticker, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙇𝙐𝘼 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
     if (budy.includes("Irfan")){
 		denz.updatePresence(from, Presence.composing)
