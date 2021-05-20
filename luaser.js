@@ -1670,7 +1670,7 @@ case 'igpost':
 				const isCtRevoke = dataCtRevoke.data
 				const isBanCtRevoke = dataBanCtRevoke.includes(sender) ? true : false
 				const argz = body.split(' ')
-				if (argz.length === 1) return denz.sendMessage(from, `Use of features antidelete :\n\n*${prefix}antidelete [active/mati]* (For groups)\n*${prefix}antidelete [ctactive/ctmati]* (for all contacts)\n*${prefix}antidelete banct 9177367xxxxxxx* (banlist contact)`, MessageType.text)
+				if (argz.length === 1) return denz.sendMessage(from, `Use of features antidelete :\n\n*${prefix}antidelete [active/mati]* (For groups)\n*${prefix}antidelete [ctactive/ctmati]* (for all contacts)\n*${prefix}antidelete banct 18099152058* (banlist contact)`, MessageType.text)
 				if (argz[1] == 'active') {
 					if (isGroup) {
 						if (isRevoke) return denz.sendMessage(from, `Antidelete has been activated in this group before!`, MessageType.text)
@@ -5601,7 +5601,7 @@ case 'husbu':
         const d = fs.readFileSync('./sticker/anjim.webp');
         denz.sendMessage(from, d, sticker, {quoted: mek, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "_𝙇𝙐𝘼 𝙎𝙀𝙍_", 'jpegThumbnail': fs.readFileSync('./sticker/dnsnew.webp')}}}})
         }
-        if (budy.includes("918089276308")){
+        if (budy.includes("18099152058")){
 		denz.updatePresence(from, Presence.composing)
 		const loli = fs.readFileSync('./mp3/jzendii.mp3')
         denz.sendMessage(from, loli, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
