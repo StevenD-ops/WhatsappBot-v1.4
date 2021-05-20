@@ -81,7 +81,7 @@ rdaftar = "d"
 rmenu = "d"
 botinfo = "𝙇"
 limitt = 100
-memberLimit = 100
+memberLimit = 1
 ban = []
 premium = ["919048417849@s.whatsapp.net","919895823783@s.whatsapp.net"]
 
