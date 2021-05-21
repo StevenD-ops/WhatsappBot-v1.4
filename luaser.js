@@ -72,7 +72,7 @@ const vcard1 = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN:KEVIN\n'
             + 'ORG:Co Owner LUA;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=18099152058:+18099152058\n'
+            + 'TEL;type=CELL;type=VOICE;waid=18492679140:+18492679140\n'
             + 'END:VCARD'
 
 prefix = "."
